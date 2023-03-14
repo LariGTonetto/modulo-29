@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o repositorio') {
             steps {
-               git branch: 'main', url: 'https://github.com/LariTonetto/modulo-29/new/ci.git'
+               git branch: 'main', url: 'https://github.com/LariTonetto/modulo-29/tree/ci.git'
             }
         }
         stage('Instalar dependencias') {
