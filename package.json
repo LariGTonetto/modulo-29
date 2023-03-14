@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LariTonetto/modulo-29/ci.git"
+    "url": "git+https://github.com/LariTonetto/modulo-29/tree/ci.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/LariTonetto/modulo-29/ci/issues"
+    "url": "https://github.com/LariTonetto/modulo-29/tree/ci/issues"
   },
-  "homepage": "https://github.com/LariTonetto/modulo-29/ci#readme"
+  "homepage": "https://github.com/LariTonetto/modulo-29/tree/ci#readme"
 }
