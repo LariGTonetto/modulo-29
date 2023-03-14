@@ -6,17 +6,17 @@ exports.config = {
     hostname: '0.0.0.0',
     port: 4723,
     path: '/wd/hub',
-    // user: "lojaebac_gBJk0x",
-    // key: "dQfHqx13fxpsVg1Ns1Yc",
 
     specs: [
         './test/specs/**/*.spec.js'
     ],
     suites: {
         products: [
-            './test/specs/productView.spec.js',
+           './test/specs/productView.spec.js',
             './test/specs/productSearch.spec.js',
-            './test/specs/productFlow.spec.js'
+            './test/specs/productFlow.spec.js',
+            './test/specs/login.spec.js',
+            './test/specs/product.spec.js'
         ]
     },
     framework: 'mocha',
