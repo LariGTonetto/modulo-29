@@ -5,7 +5,7 @@ const { generalConf } = require('./general.conf')
 let capabilities = process.env.PLATFORM === 'android' ? {
     capabilities: [{
         app : `${process.env.ANDROID_APP_ID}`,
-        device : 'Motorola Moto G9 Play',
+        device : 'Sansung Galaxy Note 20',
         os_version : '10.0',  
         project : 'Aula de Device Farm',
         build : '1.0',
