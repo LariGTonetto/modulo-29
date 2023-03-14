@@ -1,6 +1,6 @@
 const { bsConf } = require('./bs.conf');
 const { localConf } = require('./local.conf');
-const { sauceConf } = require('./sauce.config');
+const { sauceConf } = require('./sauce.conf');
 
 require('dotenv').config()
 
