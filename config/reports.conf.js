@@ -6,8 +6,8 @@ let reportsConf = process.env.REPORT == 'true' ? {
     reporters: ['spec',
         ['allure', {
             outputDir: 'allure-results',
-            disableWebdriverStepsReporting: true,
-            disableWebdriverScreenshotsReporting: true,
+            disableWebdriverStepsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
         }],
         [video, {
             saveAllVideos: true,       // If true, also saves videos for successful test cases
